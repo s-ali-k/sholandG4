@@ -1,15 +1,12 @@
-
-import './App.css'
-import Loading from './components/Loading'
+import "./App.css";
+import Container from "./components/container";
 
 function App() {
- 
-
   return (
     <div>
-      <Loading/>
+      <Container />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
