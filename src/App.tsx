@@ -1,12 +1,13 @@
 
 import './App.css'
+import Loading from './components/Loading'
 
 function App() {
  
 
   return (
     <div>
-      <h1 className='underline'>salam</h1>
+      <Loading/>
     </div>
   )
 }
